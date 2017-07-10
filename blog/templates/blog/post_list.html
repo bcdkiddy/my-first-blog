@@ -19,19 +19,14 @@
             <p>Hi, its me Bria. This is my first blog post!</p>
         </div>
 
-            <p><QuerySet [<Post: My second post>, <Post: My first post>]></p>
+            <QuerySet [<Post: My second post>, <Post: My first post>]>
+
+              {% for post in posts %}
+    {{ post }}
+{% endfor %}
 
               <div>
-    <h1><a href="/">Django Girls Blog</a></h1>
-</div>
 
-{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
 
     </body>
 </html>
