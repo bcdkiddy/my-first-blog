@@ -10,7 +10,7 @@ body {
 }
 
 
-    background-color: #ff9400;
+    background-color: white;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -26,6 +26,7 @@ body {
 }
 
 h1, h2, h3, h4 {
+    color: #C995A0;
     font-family: 'Lobster', cursive;
 }
 
